@@ -1,6 +1,7 @@
-import multiplex_contagion
-import shelve
 import os
+import shelve
+
+import multiplex_contagion
 
 # JOAPP DATA
 data_folder = "Data"
@@ -49,7 +50,9 @@ threshold_values = [1 / 2, 1 / 4, 1 / 20, 1 / 100]
 )
 
 timeseries_filename = filename + "_threshold_timeseries_numseeds=" + str(num_infected)
-timeseries_full_file_path = os.path.join(data_folder, dataset_folder, timeseries_filename)
+timeseries_full_file_path = os.path.join(
+    data_folder, dataset_folder, timeseries_filename
+)
 
 with shelve.open(timeseries_full_file_path) as data:
     data["threshold-values"] = threshold_values

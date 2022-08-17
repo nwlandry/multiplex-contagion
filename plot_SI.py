@@ -1,10 +1,11 @@
-import matplotlib.pyplot as plt
-import matplotlib.gridspec as gridspec
-import numpy as np
-import shelve
-import random
 import os
+import random
+import shelve
 from fractions import Fraction
+
+import matplotlib.gridspec as gridspec
+import matplotlib.pyplot as plt
+import numpy as np
 
 dataFolder = "Data"
 

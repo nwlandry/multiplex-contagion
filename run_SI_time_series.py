@@ -1,6 +1,7 @@
-import multiplex_contagion
-import shelve
 import os
+import shelve
+
+import multiplex_contagion
 
 # COLORADO 90 DATA
 data_folder = "Data"

@@ -1,9 +1,11 @@
 """
 The purpose of this module is to run SI and threshold contagion on NetworkX graphs as individual simulations as well as ensembles of simulations for a range of parameter values
 """
-import numpy as np
-import random
 import multiprocessing as mp
+import random
+
+import numpy as np
+
 
 # SI Process
 def SIContagion(G, initialInfected, p, tmin=0, tmax=100):
