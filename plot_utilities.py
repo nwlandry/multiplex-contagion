@@ -1,9 +1,6 @@
-import matplotlib.pyplot as plt
 import networkx as nx
 import numpy as np
-from mpl_toolkits.mplot3d import Axes3D
-from mpl_toolkits.mplot3d.art3d import Line3DCollection, LineCollection
-from numpy.linalg import norm
+from mpl_toolkits.mplot3d.art3d import Line3DCollection
 
 
 def plot_multiplex_network(
