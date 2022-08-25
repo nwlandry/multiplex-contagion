@@ -116,6 +116,6 @@ def plot_multiplex_network(
     ax.view_init(height_angle, angle)
 
     # how much do you want to zoom into the fig
-    ax.dist = 8.5
+    ax.dist = 9
 
     ax.set_axis_off()
