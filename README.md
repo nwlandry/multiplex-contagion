@@ -1,4 +1,6 @@
-# Multiplex Diffusion
+# Multiplex Contagion
+
+This repository accompanies the article ["On limitations of uniplex networks for modeling multiplex contagion"](https://doi.org/10.1371/journal.pone.0279345) and provides all scripts necessary to reproduce all results and figures.
 
 This repository provides the bases for a project seeking to demonstrate the limitations of modeling multiplex diffusion processes from uniplex network data. We do so by: starting from multiplex data sources, and simulating diffusion processes over those networks. We then decompose each network into uniplex versions, and re-simulate the same diffusion processes over those. We then examine how the addition of the component uniplex simulations correspond to the composite simulation process.
 
